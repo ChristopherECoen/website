@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Portfolio Website",
   "main": "index.js",
-  "homepage":"https://christopherecoen.github.io/website",
+  "homepage": "https://christopherecoen.github.io/website",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy":"gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Christopher E. Coen",
   "license": "MIT",
